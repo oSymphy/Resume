@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.11.7)  20 JAN 2020 14:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.11.7)  20 JAN 2020 15:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -100,25 +100,16 @@ LaTeX Font Info:    Try loading font information for OT1+qpl on input line 75.
 File: ot1qpl.fd 2009/09/25 v1.2 font definition file for OT1/qpl
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 77.
+(Font)              <7> on input line 78.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 77.
+(Font)              <5> on input line 78.
+LaTeX Font Info:    Try loading font information for OMS+qpl on input line 78.
+LaTeX Font Info:    No file OMSqpl.fd. on input line 78.
 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.77 	\subheadingw{hello}{hello}{hello}
-                                       
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-LaTeX Font Info:    Try loading font information for OMS+qpl on input line 79.
-LaTeX Font Info:    No file OMSqpl.fd. on input line 79.
 
 LaTeX Font Warning: Font shape `OMS/qpl/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textperiodcentered' on input line 79.
+(Font)              for symbol `textperiodcentered' on input line 78.
 
 [1
 
@@ -133,7 +124,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  1306 strings out of 494553
  19379 string characters out of 6177377
- 87286 words of memory out of 5000000
+ 86286 words of memory out of 5000000
  5007 multiletter control sequences out of 15000+600000
  17856 words of font info for 19 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -141,8 +132,7 @@ Here is how much of TeX's memory you used:
 {/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-rm.enc}</usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/p
 ublic/tex-gyre/qplb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qplr.pfb>
-
-Output written on "resume v10.pdf" (1 page, 135311 bytes).
+Output written on "resume v10.pdf" (1 page, 135269 bytes).
 PDF statistics:
  24 PDF objects out of 1000 (max. 8388607)
  14 compressed objects within 1 object stream
