@@ -1,0 +1,144 @@
+\documentclass[10pt]{article}
+
+\input{glyphtounicode}
+
+\pdfgentounicode=1
+
+\usepackage{tgpagella}
+
+%-----------------------------------------------------------
+%Margin setup
+
+\setlength{\voffset}{0.1in}
+\setlength{\paperwidth}{8.5in}
+\setlength{\paperheight}{11in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\textheight}{11in}
+\setlength{\textheight}{9.5in}
+\setlength{\topmargin}{-0.25in}
+\setlength{\textwidth}{7in}
+\setlength{\topskip}{0in}
+\setlength{\oddsidemargin}{-0.25in}
+\setlength{\evensidemargin}{-0.25in}
+
+%-----------------------------------------------------------
+%\usepackage{fullpage}
+\usepackage{shading}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{multirow}
+%\textheight=9.0in
+\pagestyle{empty}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\subheadingf}[4]{
+\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & #2 \\
+	#3 & #4 \\
+\end{tabular*}\vspace{1pt}}
+
+\newcommand{\headingtitle}[3]{
+\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+	\multirow{2}{*}{#1}&#2\\
+	&#3\\
+\end{tabular*}}
+\newcommand{\headingtitlet}[4]{
+	\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+		\multirow{3}{*}{#1}&#2\\
+		&#3\\
+		&#4\\
+\end{tabular*}}
+
+\newcommand{\subheadingt}[2]{ 	
+	\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+	\end{tabular*}}
+\titleformat{\section}
+	{\Large\bfseries\raggedright}
+	{}{0em}
+	{}
+	[\titlerule]
+	
+\newcommand{\subheadingw}[3]{
+	\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+		\multirow{3}{*}#1\\
+		&#2&{#3}\\
+	\end{tabular*}}
+
+%-----------------------------------------------------------
+
+\begin{document}
+	
+	\subheadingw{hello}{hello}{hello}
+	
+	\headingtitle{\textbf{\huge Michael Liang Li}}{mlli1@asu.edu · (480) 363-7999 · 4522 S Boulder St. Gilbert, AZ}{github.com/saesus · instagram.com/saesus}
+	\vspace{-2em}
+	
+	\section{Experience \& Technical Skills}
+		\subheadingt{Software Intern (Acme Aerospace)}{August 2019 – Present}
+		Tempe, AZ\\
+		\begin{itemize}[noitemsep, topsep=0pt]
+			\item Scripted in Python and Windows batch to automate checking proper documentation and archiving past projects in VisualSVN and Smartbear Collaborator
+		\end{itemize}
+		\vspace{0.1in}
+		
+		\subheadingt{Convolutional Neural Networks (ASU CSE494)}{August 2019 –  Present}
+		\begin{itemize}[noitemsep, topsep=0pt]
+			\item Built the LeNet-5 architecture in Keras, achieving 90\% test accuracy using the MNIST and Fashion MNIST datasets 
+			\item Reached 75\% test accuracy on the CIFAR-10 Dataset with 10 epochs
+		\end{itemize}
+		\vspace{0.1in}
+		
+		\subheadingt{CTF Challenges (ASU CSE466)}{August 2019 –  Present}
+			\begin{itemize}[noitemsep, topsep=0pt]
+				\item Executed a variety of exploit techniques in a lab setting 
+				\item Reverse engineered x86\_64 (AMD64) Linux binaries with Ghidra
+				\item Wrote assembly code to exploit Linux systems and exploiting common insecure programming practices
+			\end{itemize}
+		\vspace{0.1in}	
+		
+		\subheadingt{Abstract Syntax Tree (ASU CSE340)}{January 2019 – May 2019}
+		\begin{itemize}[noitemsep, topsep=0pt]
+			\item Developed an Abstract Syntax Tree to recognize a grammar, and parse for syntax and semantic errors
+			\item Designed with scalability and easy modification in mind, using object-oriented design principles such as abstract base classes
+		\end{itemize}
+		\vspace{0.1in}
+		
+		\subheadingt{Huffman Code (ASU CSE310)}{August 2018 – December 2018}
+		\begin{itemize}[noitemsep, topsep=0pt]
+			\item Implemented a Huffman compression algorithm in C++ to generate a tree as well as calculating the compression ratio.\\
+			\item Tested and benchmarked average compression ratio and runtime.\\
+		\end{itemize}
+		\vspace{0.1in}
+	
+		\subheadingt{Digital Portfolio Help Services (ASU)}{May 2018 – August 2019}
+		Tempe, AZ\\
+		\begin{itemize}[noitemsep, topsep=0pt]
+			\item Led the redesign of website templates for the School of Life Sciences, School of Earth and Space Exploration and the Mary Lou Fulton Teacher’s College.
+			\item Implemented tutorials and videos for Digication and the various tools with over 500,000 hits
+			\item Revised the web design for the Help Resources pages with a focus on accessibility
+		\end{itemize}
+		\vspace{0.1in}
+	
+		\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+			\textbf{Proficient in C, C++, Python, Java, Ubuntu Linux} & \textbf{Familiar with x86\_64 assembly, cron, SQL}
+		\end{tabular*}
+	
+	\section{Education}
+	\subheadingf{Arizona State University}{Tempe, AZ}
+	{Bachelor of Science, Computer Science (GPA: 3.58)}{Expected: May 2021}
+	\\Minor in Studio Art\\
+	Barrett, the Honors College\\
+
+	\section{Volunteering and Community Involvement}
+		\subheadingt{Secretary and Race Team Member (ASU Dragon Boat)}{August 2017 – September 2019}	
+			\begin{itemize}[noitemsep, topsep=0pt]
+				\item Competed in San Diego, Tempe and Long Beach paddling competitions (2017-2018)
+				\item Volunteered with the Iron Man organization as part of the security team, and with Boeing to clean and renovate the Desert Sun Child Development Center
+			\end{itemize}
+\end{document}
