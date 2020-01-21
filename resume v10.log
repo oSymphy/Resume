@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.11.7)  20 JAN 2020 15:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.11.7)  20 JAN 2020 23:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -49,83 +49,77 @@ Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )))))
-(./shading.sty
-\graybox=\box27
-\xgrayspace=\dimen103
-\ygrayspace=\dimen104
-) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip43
-\enit@outerparindent=\dimen105
+\enit@outerparindent=\dimen103
 \enit@toks=\toks15
-\enit@inbox=\box28
+\enit@inbox=\box27
 \enit@count@id=\count88
 \enitdp@description=\count89
-) (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box29
+\ttl@box=\box28
 \beforetitleunit=\skip44
 \aftertitleunit=\skip45
-\ttl@plus=\dimen106
-\ttl@minus=\dimen107
+\ttl@plus=\dimen104
+\ttl@minus=\dimen105
 \ttl@toksa=\toks16
-\titlewidth=\dimen108
-\titlewidthlast=\dimen109
-\titlewidthfirst=\dimen110
+\titlewidth=\dimen106
+\titlewidthlast=\dimen107
+\titlewidthfirst=\dimen108
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@colwidth=\skip46
 \multirow@cntb=\count90
 \multirow@dima=\skip47
-\bigstrutjot=\dimen111
+\bigstrutjot=\dimen109
 )
 (./resume v10.aux)
 \openout1 = `"resume v10.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Try loading font information for OT1+qpl on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
+LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Try loading font information for OT1+qpl on input line 66.
  (/usr/share/texmf/tex/latex/tex-gyre/ot1qpl.fd
 File: ot1qpl.fd 2009/09/25 v1.2 font definition file for OT1/qpl
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 78.
+(Font)              <7> on input line 70.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 78.
-LaTeX Font Info:    Try loading font information for OMS+qpl on input line 78.
-LaTeX Font Info:    No file OMSqpl.fd. on input line 78.
+(Font)              <5> on input line 70.
+LaTeX Font Info:    Try loading font information for OMS+qpl on input line 70.
+LaTeX Font Info:    No file OMSqpl.fd. on input line 70.
 
 
 LaTeX Font Warning: Font shape `OMS/qpl/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textperiodcentered' on input line 78.
+(Font)              for symbol `textperiodcentered' on input line 70.
 
 [1
 
-
-Non-PDF special ignored!
-<special> ! TeXDict begin /sharpbox{newpath xmin ymin moveto xmin ymax line...
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./resume v10.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 1306 strings out of 494553
- 19379 string characters out of 6177377
- 86286 words of memory out of 5000000
- 5007 multiletter control sequences out of 15000+600000
+ 1285 strings out of 494553
+ 19149 string characters out of 6177377
+ 84333 words of memory out of 5000000
+ 4989 multiletter control sequences out of 15000+600000
  17856 words of font info for 19 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  37i,9n,33p,257b,180s stack positions out of 5000i,500n,10000p,200000b,80000s

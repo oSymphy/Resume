@@ -23,15 +23,12 @@
 \setlength{\evensidemargin}{-0.25in}
 
 %-----------------------------------------------------------
-%\usepackage{fullpage}
-\usepackage{shading}
 \usepackage{enumitem}
 \usepackage{titlesec}
 \usepackage{multirow}
-%\textheight=9.0in
 \pagestyle{empty}
 \raggedbottom
-\raggedright
+\raggedright	
 \setlength{\tabcolsep}{0in}
 
 %-----------------------------------------------------------
@@ -46,12 +43,6 @@
 \begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
 	\multirow{2}{*}{#1}&#2\\
 	&#3\\
-\end{tabular*}}
-\newcommand{\headingtitlet}[4]{
-	\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
-		\multirow{3}{*}{#1}&#2\\
-		&#3\\
-		&#4\\
 \end{tabular*}}
 
 \newcommand{\subheadingt}[2]{ 	
@@ -73,7 +64,8 @@
 %-----------------------------------------------------------
 
 \begin{document}
-
+	
+	%\subheadingw{hello}{hello}{hello}
 	
 	\headingtitle{\textbf{\huge Michael Liang Li}}{mlli1@asu.edu · (480) 363-7999 · 4522 S Boulder St. Gilbert, AZ}{github.com/saesus · instagram.com/saesus}
 	\vspace{-2em}
@@ -140,4 +132,5 @@
 				\item Competed in San Diego, Tempe and Long Beach paddling competitions (2017-2018)
 				\item Volunteered with the Iron Man organization as part of the security team, and with Boeing to clean and renovate the Desert Sun Child Development Center
 			\end{itemize}
+		
 \end{document}
